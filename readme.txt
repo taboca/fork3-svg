@@ -8,6 +8,8 @@ mgalli @ mgalli .com
 
 ******************************
 
+CHECK DEMO here - http://www.svgplanet.com/p/fork3  - the page itself is the demo
+
 This system aims to support the Web developer and allows us to generated Web site graphics using a server side build system. It uses Batik, ANT. Some understanding of SVG and UI is important so you can manually ( at this point ) modify the graphics and choreography logistics between the SVG files. With Fork3 you can *(fork* graphics and create lots of visual templates for Web sites and more. 
 
 Upcoming versions to: 

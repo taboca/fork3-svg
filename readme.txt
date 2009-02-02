@@ -18,3 +18,17 @@ Upcoming versions to:
 * Be integrated in server-side
 * Be available as a Web service
 * more ___ ? 
+
+===================================
+
+Requirements
+
+* ANT 
+ 
+===================================
+
+Important information 
+
+This bundle has some lib files with SVG Batik toolkit and the Batik rasterizer. These are not yet part of the project. It's availabe here in the bundle to support some developers. Maybe this is not going to work in your JDK. If so you may need to compile the Batik and Batik rasterizer and place many of the required files in the lib directory. The lib dependencies are in the build.xml file. 
+
+When you have the ANT, Batik, Batik rasterizer, JDK ready, you will be able to type ant from this home directory and expect all the files to be generated in the output directory. Copy the output/* to site/output/* and enjoy the site/page.html template. 

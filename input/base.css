@@ -1,0 +1,93 @@
+.installbuttonbackground { 
+
+	fill:rgb(120,140,160);
+
+} 
+
+.titletext { 
+ font-family:Georgia;
+ font-size:38px;
+ font-weight:bold;
+ fill:white;
+} 
+
+.baserectangle { 
+ 	stroke:white;
+ 	stroke-width:4px;
+	fill:rgb(50,0,0);
+} 
+.smallbox { 
+   fill: rgb(255,255,255);
+}
+
+.smallboxborder { 
+   stroke:rgb(120,140,160);
+   stroke-width:1px;
+   fill:none;
+}
+ 
+.bannertop { 
+   fill: white;
+   stroke: white;
+} 
+
+.linewhite { 
+   fill: none;
+   stroke: white;
+   stroke-width:4px;
+}
+.linedark { 
+   fill: none;
+   stroke: black;
+   stroke-width:4px;
+}
+
+.waveshade-from { 
+ 	stop-color:rgb(120,140,160);
+	stop-opacity:1;
+} 
+
+.waveshade-white { 
+ 	stop-color:rgb(255,255,255);
+	stop-opacity:1;
+} 
+
+/*-----------------------------------
+  layer-background
+ -----------------------------------*/
+
+.layer-background-to { 
+	stop-color:rgb(255,255,255);
+	stop-opacity:1;
+}
+
+.layer-background-from {
+        stop-color:rgb(120,140,160);
+        stop-opacity:.5;
+}
+
+/*--------------------------------------
+  layer-shades
+ --------------------------------------*/
+
+.layer-shades-from {
+        stop-color:rgb(255,255,255);
+        stop-opacity:.5;
+}
+
+.layer-shades-to {
+        stop-color:rgb(255,255,255);
+        stop-opacity:0;
+}
+
+/*--------------------------------------
+  layer-waves
+ --------------------------------------*/
+
+.layer-waves-stroke {
+   stroke: white;
+   stroke-width:2px;
+   fill:none;
+}
+
+

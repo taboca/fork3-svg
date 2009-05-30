@@ -1,41 +1,134 @@
+.thumbimg { 
+	border:7px solid #ddd;
+} 
+
+#panel-container { 
+	width:520px;
+	float:right;
+}
+.items-description h2 { 
+}
+
+.items-description { margin-bottom:2em } 
+.items-description td { 
+	font-size:90%;
+	color:gray;
+	padding-left:1em;
+	text-alignment:justify;
+} 
+
+.thumb { 	
+	border:1px solid gray;
+	margin-right:10px;	
+	padding:1px;
+} 
+
+#overdrive-buffers { 
+ display:none;
+} 
+#panel-container { 
+  padding-left:1em;
+} 
+a { color:black } 
+#tabs-header { 
+	margin:auto;
+	margin-top:-4px;
+	width:820px;
+	padding:0;
+} 
+div.tr { 
+	font-size:85%
+}
+
+div.tr * { color:#555 } 
+
+div.tr h3 { 
+	margin:0 0 .6em 0;
+}
+
+#bottomfooter { 
+	color:#666;
+	height:180px;
+	padding:1em;
+        background: white url(../output/component-footer/bottom.png) 0px 0px repeat-x;
+} 
+
+#bottomfooter table { 
+	margin:auto;
+	width:840px;
+}
+
+#bottomfooter td { 
+	font-size:87%;
+}
+
+#bottomfooter ul { 
+	margin:0px;
+}
+
+#bottomfooter h3 { 
+	margin:0;
+}
+
+
+
+table td { 
+	font-size:78%;
+} 
+
+table td > img { 
+ 	border:2px solid #bbb;
+	padding:1px;;
+} 
+
+.section { 
+	width:100%;
+	border-top:1px solid gray;
+	border-bottom:1px solid gray;
+	background: url(../output/component-section-pattern/bg.png) repeat 0 0; 
+	min-height:30px;
+} 
+
 .fixverticalalign { 
 
-  width:1px;height:88px;vertical-align:middle;
+  width:1px;height:68px;vertical-align:middle;
    position:relative;
 
 } 
 
-.installbutton {
-        width:270px;
-        height:90;x
+
+.tab-plain {
+        width:350px;
+        height:80;x
         margin:0px;
         padding:0px;
-        background:url(../output/installbutton.png) no-repeat 0 0;
+        background:url(../output/component-fixed-tab-plain/image.png) no-repeat 0 0;
         text-align:center;
 }
 
-.footertable { 
- 	width:800px;
-	margin:auto;
-} 
-
 
 html { 
- 	font-family:georgia; 
-	font-size:100%;
+ 	font-family:georgia,verdana, sans-serif; 
+	font-size:90%;
+	color:black;
+	margin:0px;
 } 
 
 h1,h2,h3 { 
- 	color:rgb(0,110,80);
+ 	color:rgb(0,80,100);
 } 
 
-.dotted { 
- 	background: url(../output/dotted.png) repeat-x 0 0;
-	margin:auto; 
-        height:6px;
-	margin-top:.2em;
-  	margin-bottom:2em;
-   
+h3 {  color:#888 }
+
+
+h2 { 
+} 
+h1 { 
+	margin-top:0;
+}
+
+.section h2 { 
+	color:white;
 } 
 
             html, body {
@@ -44,73 +137,70 @@ h1,h2,h3 {
                 }
 
 		.separator  {
-                        background: white url(../output/bgtop-shade.png) -350px -140px repeat-x;
+                        background: white url(../output/component-footer/bg-odd.png) -350px -50px repeat-x;
 			width:100%;
-			height:2em;
 
-		} 
-                #bottomfooter {
-			padding-top:1em;
-                        height:170px;
-                        background:url(../output/bgbottom-shade.png) 0px 0px repeat-x;
-			width:100%;
-		}
-
-		#bottomfooter ul, #bottomfooter h3 { 
-			margin:0px;
+			border-top:1px solid gray;
+			margin-top:1em;
 		} 
 
-		#bottomfooter table { 
-			width:800px;
-			margin:auto;
+		#backheader { 
+                        width:100%;
+                        background: black url(../output/component-topbanner/backheader.png) 0px 0px repeat-x;
+			height:240px;
 		} 
                 #topheader {
                         width:100%;
                         margin:0px;
-                        height:160px;
-                        background:url(../output/bgtop-shade.png) -350px -60px repeat-x;
+                        height:240px;
+			overflow:hidden;
+                        background: url(../output/component-topbanner/image-fader.png) 0px -0px no-repeat;
+			border-bottom:1px solid gray; 
                 }
-                #header {
+		#topheader-section { 
+                        background:url(../output/component-header-shadow/bg.png) 0px 0px repeat-x;
+		
+			height:3em;
+			margin:0;
+		} 
+                #logo {
                         margin:auto;
-                        background:url(../output/topbanner.png) 0 0px no-repeat;
-                        width:820px;
-                        height:190px;
-			margin-top:0;
+                        background:url(../output/component-topbanner/bg.png) 0 -20px no-repeat;
+			padding-top:90px;
+			padding-left:40px;
+	
                 }
 
 
-.t {background: url(../output/boxshade.png) 0 0 repeat-x; width: 100%; }
-.b {background: url(../output/dot.png) 0 100% repeat-x}
-.l {background: url(../output/dot.png) 0 0 repeat-y}
-.r {background: url(../output/dot.png) 100% 0 repeat-y}
-.bl {background: url(../output/q5.png) 0 100% no-repeat}
-.br {background: url(../output/q4.png) 100% 100% no-repeat}
-.tl {background: url(../output/q1.png) 0 0 no-repeat}
-.tr {background: url(../output/q3.png) 100% 0 no-repeat; padding:10px}
+.t {background: url(../output/component-box/boxshade.png) 0 0 repeat-x; width: 100%; }
+.b {background: url(../output/component-box/dot.png) 0 100% repeat-x}
+.l {background: url(../output/component-box/dot.png) 0 0 repeat-y}
+.r {background: url(../output/component-box/dot.png) 100% 0 repeat-y}
+.bl {background: url(../output/component-box/q5.png) 0 100% no-repeat}
+.br {background: url(../output/component-box/q4.png) 100% 100% no-repeat}
+.tl {background: url(../output/component-box/q1.png) 0 0 no-repeat}
+.tr {background: url(../output/component-box/q3.png) 100% 0 no-repeat; padding:10px}
 
+.ot {background: url(../output/component-box-odd/oddboxshade.png) 0 0 repeat-x; width: 100%; }
+.ob {background: url(../output/component-box-odd/odddot.png) 0 100% repeat-x}
+.ol {background: url(../output/component-box-odd/odddot.png) 0 0 repeat-y}
+.or {background: url(../output/component-box-odd/odddot.png) 100% 0 repeat-y}
+.obl {background: url(../output/component-box-odd/o5.png) 0 100% no-repeat}
+.obr {background: url(../output/component-box-odd/o4.png) 100% 100% no-repeat}
+.otl {background: url(../output/component-box-odd/o1.png) 0 0 no-repeat}
+.otr {background: url(../output/component-box-odd/o3.png) 100% 0 no-repeat; padding:10px}
 
 ul { 
  margin:0px;
  padding:1em;
 } 
 
-#content { 
- 	width:800px;
+.content { 
+ 	width:790px;
 	margin:auto;
  	padding:.2em;	
+	text-align:justify;
 } 
 
-.footercontent { 
- 	width:800px;
-	margin:auto;
-	padding:1em;
-} 
 
-#footer { 
- 	color:gray;
-	font-spacing:2px;
-	font-size:77%;
-	margin:auto;
- 	width:800px;
-	margin-top:2em;
-} 
+

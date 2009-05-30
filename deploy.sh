@@ -1,1 +1,0 @@
-cp output/* ./site/output/

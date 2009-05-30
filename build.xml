@@ -32,14 +32,18 @@
 	
     <target name="gera-png">
 
-      <rasterize
-            result="image/png"
-            destdir="output">
-            <fileset dir="input">
-                <include name="*.svg" />
-            </fileset>
-      </rasterize>
 
-	</target>
+<rasterize result="image/png" destdir="output/component-box"> <fileset dir="input/component-box"> <include name="**/*.svg" /> </fileset> </rasterize>
+<rasterize result="image/png" destdir="output/component-fixed-button"> <fileset dir="input/component-fixed-button"> <include name="**/*.svg" /> </fileset> </rasterize>
+<rasterize result="image/png" destdir="output/component-fixed-tab-plain"> <fileset dir="input/component-fixed-tab-plain"> <include name="**/*.svg" /> </fileset> </rasterize>
+<rasterize result="image/png" destdir="output/component-footer"> <fileset dir="input/component-footer"> <include name="**/*.svg" /> </fileset> </rasterize>
+<rasterize result="image/png" destdir="output/component-header"> <fileset dir="input/component-header"> <include name="**/*.svg" /> </fileset> </rasterize>
+<rasterize result="image/png" destdir="output/component-header-shadow"> <fileset dir="input/component-header-shadow"> <include name="**/*.svg" /> </fileset> </rasterize>
+<rasterize result="image/png" destdir="output/component-line-dotted"> <fileset dir="input/component-line-dotted"> <include name="**/*.svg" /> </fileset> </rasterize>
+<rasterize result="image/png" destdir="output/component-oddbox"> <fileset dir="input/component-oddbox"> <include name="**/*.svg" /> </fileset> </rasterize>
+<rasterize result="image/png" destdir="output/component-section-pattern"> <fileset dir="input/component-section-pattern"> <include name="**/*.svg" /> </fileset> </rasterize> 
+<rasterize result="image/png" destdir="output/component-topbanner"> <fileset dir="input/component-topbanner"> <include name="**/*.svg" /> </fileset> </rasterize>
+<rasterize result="image/png" destdir="output/component-tabs-upsidedown"> <fileset dir="input/component-tabs-upsidedown"> <include name="**/*.svg" /> </fileset> </rasterize>
+</target>
 	
 </project>

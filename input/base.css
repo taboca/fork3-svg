@@ -1,14 +1,107 @@
-.installbuttonbackground { 
+/* Buttons */
 
-	fill:rgb(120,140,160);
+.buttonblue-from {
+        stop-color:rgb(120,200,255);
+        stop-opacity:1;
+}
+.buttonblue-to{
+        stop-color:rgb(20,80,180);
+        stop-opacity:1;
+}
+.buttongreen-from {
+        stop-color:rgb(120,255,200);
+        stop-opacity:1;
+}
+.buttongreen-to{
+        stop-color:rgb(20,180,80);
+        stop-opacity:1;
+}
+/*---------------- Tabs Colors -----------------*/
 
+
+
+.colorwhite-from {
+        stop-color:rgb(240,240,240);
+        stop-opacity:1;
+}
+.colorwhite-to{
+        stop-color:white;
+        stop-opacity:1;
+}
+.colorblue-from {
+        stop-color:rgb(90,200,255);
+        stop-opacity:1;
+}
+.colorblue-to{
+        stop-color:rgb(80,180,245);
+        stop-opacity:1;
+}
+.colorwhite {
+        stop-color:white;
+        stop-opacity:1;
+}
+.colororange-from {
+        stop-color:rgb(250,210,0);
+        stop-opacity:1;
+}
+.colorgray-from {
+        stop-color:rgb(200,200,200);
+        stop-opacity:1;
+}
+.colorgray-to{
+        stop-color:rgb(210,210,210);
+        stop-opacity:1;
+}
+
+.colorodd-from {
+        stop-color:rgb(120,255,255);
+        stop-opacity:1;
+}
+.colorodd-to{
+        stop-color:rgb(120,150,255);
+        stop-opacity:1;
+}
+
+
+
+
+/*----------------  - -----------------------*/
+
+
+.layer-background-black {
+        stop-color:rgb(0,0,0);
+        stop-opacity:1;
+}
+.layer-background-white {
+        stop-color:rgb(255,255,255);
+        stop-opacity:1;
+}
+
+
+.bgfill-pattern { 
+	fill:rgb(130,130,130);
+
+} 
+.patternshade {
+        fill:rgb(125,125,125);
+        stroke:none;
+	
+}
+
+.bgfill { 
+	fill:rgb(255,255,255);
+	opacity:0;
+} 
+
+.button-plain-background { 
+	fill:rgb(220,220,220);
 } 
 
 .titletext { 
  font-family:Georgia;
- font-size:38px;
+ font-size:37px;
  font-weight:bold;
- fill:white;
+ fill:rgb(255,255,255);
 } 
 
 .baserectangle { 
@@ -16,12 +109,23 @@
  	stroke-width:4px;
 	fill:rgb(50,0,0);
 } 
+
+.oddbox { 
+   fill: white;
+}
+
+.oddboxborder { 
+   stroke:orange;
+   stroke-width:1px;
+   fill:none;
+}
+ 
 .smallbox { 
    fill: rgb(255,255,255);
 }
 
 .smallboxborder { 
-   stroke:rgb(120,140,160);
+   stroke:rgb(210,210,210);
    stroke-width:1px;
    fill:none;
 }
@@ -42,8 +146,17 @@
    stroke-width:4px;
 }
 
+.oddwaveshade-to { 
+ 	stop-color:red;
+	stop-opacity:1;
+} 
+.oddwaveshade-from { 
+ 	stop-color:orange;
+	stop-opacity:1;
+} 
+
 .waveshade-from { 
- 	stop-color:rgb(120,140,160);
+ 	stop-color:rgb(220,220,220);
 	stop-opacity:1;
 } 
 
@@ -52,18 +165,47 @@
 	stop-opacity:1;
 } 
 
+.colorodd-from { 
+	stop-color:orange;
+	stop-opacity:1;
+} 
+.colorodd-to{ 
+
+        stop-color:orange;
+        stop-opacity:1;
+} 
+
 /*-----------------------------------
   layer-background
  -----------------------------------*/
 
+.layer-backheader-to { 
+	stop-color:rgb(80,80,80);
+	stop-opacity:1;
+}
+.layer-backheader-from { 
+	stop-color:rgb(20,22,20);
+	stop-opacity:1;
+}
+
 .layer-background-to { 
-	stop-color:rgb(255,255,255);
+        stop-color:rgb(255,255,255);
 	stop-opacity:1;
 }
 
 .layer-background-from {
-        stop-color:rgb(120,140,160);
-        stop-opacity:.5;
+	stop-color:rgb(160,160,160);
+        stop-opacity:1;
+}
+
+.layer-background-odd-to { 
+	stop-color:rgb(220,220,220);
+	stop-opacity:1;
+}
+
+.layer-background-odd-from {
+        stop-color:rgb(150,150,150);
+        stop-opacity:1;
 }
 
 /*--------------------------------------
@@ -80,6 +222,14 @@
         stop-opacity:0;
 }
 
+.layer-shades-transparent { 
+	stop-opacity:0;
+        stop-color:rgb(255,255,255);
+} 
+.layer-shades-whitehalf { 
+	stop-opacity:.2;
+        stop-color:rgb(255,255,255);
+} 
 /*--------------------------------------
   layer-waves
  --------------------------------------*/

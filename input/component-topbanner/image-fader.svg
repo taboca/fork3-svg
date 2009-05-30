@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="../base.css"  type="text/css" ?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg  width="800" height="250" view="0 0 800 250"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<defs>
+<filter id="filter" filterRes="2500" x="0" y="0">
+               <feGaussianBlur stdDeviation="6 6"/>
+              <feOffset dx="0" dy="0"/>
+  </filter>
+
+       <mask id="outermask">
+		<image id="right" x="0" y="0" width="800" height="250"  xlink:href="../layer-lateral/fade-sides.svg" opacity="1" />
+        </mask>
+
+</defs>
+
+<image x="0" y="0" width="800" height="250"  xlink:href="../layer-background/vertical-from-to-dark.svg " opacity="1" />
+
+<g mask="url(#outermask)">
+</g>
+
+<!--
+<image id="backgroundImage2" x="100" y="-050" width="900" height="500"  xlink:href="../../vendor/taboca-logo.svg" opacity="1" preserveAspectRatio="xMaxYMax meet"  transform = "rotate(-25 100 100)" filter="url(#filter)"/>
+
+-->
+
+
+</svg>

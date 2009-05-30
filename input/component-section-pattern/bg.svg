@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="../base.css"  type="text/css" ?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="30" height="30"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<g>
+0
+<rect  id="patternbackground"   x="0" y="0" rx="0" ry="0" width="30" height="30" class="bgfill-pattern"  />
+
+<image  x="0" y="0" width="30" height="30"  xlink:href="../layer-patterns/pattern-diagonals.svg" />
+
+</g>
+
+</svg>
